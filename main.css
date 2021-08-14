@@ -1,0 +1,139 @@
+/*********************************************************************************
+*  WEB222 – Final Assesment*  
+*  I declare that this assignment is my own work inaccordance with Seneca  Academic Policy.
+*  No part of this assignment has been copied manuallyor electronically from any other source
+*  (including web sites) or distributed to other students.
+*
+*  Name: Semen Khlavich   Student ID: 107305203   Date: August 13, 2021
+*********************************************************************************/
+body{
+    padding-top: 0;
+    margin: 0;
+}
+
+/*header classes*/
+header {
+    background-color: #ffffff;
+    position: relative;
+    font-family: Helvetica, Sans-Serif;
+    font-size:  20px;
+    font-weight: bold;
+    margin: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+header a {
+    text-decoration:none;
+    color: black;
+    margin: 20px;
+}
+.name1{
+    font-size:50px;
+    text-align: center;
+}
+
+.now mark {
+    text-decoration: none;
+    padding: 5px;
+    background-color: #174d1c8f;
+    
+}
+
+/*search classes*/
+.search {
+    
+    max-width:500px;
+    margin-bottom: 200px;
+    margin: auto;
+}
+
+.search input[type=text] {
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+  }
+  
+  .search button {
+    
+    width: 20%;
+    height:34px;
+    background: #174d1c8f;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    
+  }
+  
+  .search button:hover {
+    background: #1335178f;
+  }
+  
+
+
+footer{
+    height: 50px;
+}
+.footer_text{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, Sans-Serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+    text-align: center;
+}
+
+#videoList {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+}
+
+.video {
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;    
+    font-family: Helvetica, Sans-Serif;
+    display: block;
+    
+    margin: 5 auto;
+}
+.video h2 {
+    text-align: justify;
+}
+
+.video span {
+    max-width: 80%;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.video .videoimage {
+    text-align: justify;
+    margin-top: 20px;
+    height: 300px;
+    max-width: 80%;
+    display: block;
+    
+}
+
+.video .ava{
+    width: 10%;
+    border-radius: 50%;
+    
+}
+.sub {
+    width: 20%;
+    margin:0;
+}
+#errorm p {
+    text-align: center;
+    font-size: 30px;
+}
+
+
