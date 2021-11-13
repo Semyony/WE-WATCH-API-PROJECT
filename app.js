@@ -1,11 +1,3 @@
-/*********************************************************************************
-*  WEB222 – Final Assesment*  
-*  I declare that this assignment is my own work inaccordance with Seneca  Academic Policy.
-*  No part of this assignment has been copied manuallyor electronically from any other source
-*  (including web sites) or distributed to other students.
-*
-*  Name: Semen Khlavich   Student ID: 107305203   Date: August 13, 2021
-*********************************************************************************/
 const button = document.querySelector('button');
 const searchbar = document.querySelector('input');
 let api_url = "https://api.dailymotion.com/videos?fields=id%2Cthumbnail_360_url%2Ccreated_time%2Cviews_total%2Ctitle%2Cowner.username%2cowner.avatar_80_url&search=";
